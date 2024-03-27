@@ -106,6 +106,35 @@ body {
   background-position: center;
   background-size: cover;
 }
+/* Contact form */
+.contact-form {
+  margin-top: 3.6rem;
+  margin-bottom: 6rem;
+}
+.form-container input,
+.form-container textarea{
+  background-color: var(--white);
+  opacity: 0.98;
+}
+.title-form {
+  font-family: 'Quicksand', sans-serif;
+  color: var(--white);
+}
+.form-label {
+  color: var(--white);
+  font-size: 1.2rem;
+}
+.basic-input {
+  padding-top: 2rem;
+  border-top: 4px var(--grey) solid;
+}
+.btn-form {
+  color: var(--white);
+  background-color: var(--lightblue2);
+  border: none;
+  margin-top: 1rem;
+  width: 8rem;
+}
 /* Footer */
 .footer {
   font-family: 'Quicksand', sans-serif;
