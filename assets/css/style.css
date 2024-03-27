@@ -60,6 +60,52 @@ body {
   font-size: 1.8rem;
   background-color: var(--lightblue2);
 }
+/* Featured trips */
+.featured-trips-container {
+  border-top: 4px var(--grey) solid;
+}
+.title-featured-trips {
+  color: var(--white);
+}
+.row-featured-trips .card {
+  background-color: var(--lightblue2);
+}
+.card {
+  margin: 2rem 2rem;
+}
+/* .card:hover {
+  animation: card-hover 0.3s ease-in-out 1 forwards ;
+} */
+.card-title {
+  color: var(--white);
+}
+.card-text {
+  color: var(--white);
+}
+.card-1 {
+  background-image: url(../img/card1.jpg);
+  height: 10rem;
+  background-position: center;
+  background-size: cover;
+}
+.card-2 {
+  background-image: url(../img/card2.jpg);
+  height: 10rem;
+  background-position: center;
+  background-size: cover;
+}
+.card-3 {
+  background-image: url(../img/card3.jpg);
+  height: 10rem;
+  background-position: center;
+  background-size: cover;
+}
+.card-4 {
+  background-image: url(../img/card4.jpg);
+  height: 10rem;
+  background-position: center;
+  background-size: cover;
+}
 /* Footer */
 .footer {
   font-family: 'Quicksand', sans-serif;
