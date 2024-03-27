@@ -16,6 +16,7 @@ body {
 }
 .navbar-brand {
   color: var(--white);
+  text-shadow: 2px 2px 1px var(--grey);
 }
 .navbar-brand img {
   width: 3rem;
@@ -23,27 +24,7 @@ body {
 }
 .nav-link {
   color: var(--white);
-}
-/* About us */
-.about-us {
-  font-family: 'Quicksand', sans-serif;
-}
-.about-us-row {
-  padding-top: 3rem;
-  border-top: 4px var(--grey) solid;
-}
-.title-section {
-  font-family: 'Quicksand', sans-serif;
-  color: var(--white);
-}
-.text-item {
-  font-family: 'Tenor Sans', sans-serif;
-  color: var(--white);
-}
-.favicon-container {
-  color: var(--white);
-  font-size: 1.8rem;
-  background-color: var(--lightblue2);
+  text-shadow: 2px 2px 1px var(--grey);
 }
 /* Footer */
 .footer {
