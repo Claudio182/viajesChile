@@ -1,0 +1,26 @@
+:root {
+  --white: #F6F4E7;
+  --lightblue: #0DCAF0;
+  --lightblue2: #36A9B4;
+  --black: #212121;
+  --grey: #323232;
+}
+body {
+  background-color: var(--black);
+}
+/*  Navbar */
+.navbar {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  z-index: 2;
+}
+.navbar-brand {
+  color: var(--white);
+}
+.navbar-brand img {
+  width: 3rem;
+  margin-right: 0.6rem;
+}
+.nav-link {
+  color: var(--white);
+}
