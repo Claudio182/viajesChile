@@ -24,3 +24,24 @@ body {
 .nav-link {
   color: var(--white);
 }
+/* Footer */
+.footer {
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--lightblue2);
+}
+.footer-container {
+  color: var(--white);
+}
+.footer a {
+  text-decoration: none;
+}
+.footer-text {
+  font-size: 1.4rem;
+}
+.favicon-item {
+  margin: 0 0.5rem;
+}
+.fa-brands {
+  color: var(--white);
+  font-size: 2rem;
+}
