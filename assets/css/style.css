@@ -14,6 +14,7 @@ body {
 /*  Navbar */
 .navbar {
   font-family: 'Quicksand', sans-serif;
+  background-color: var(--lightblue2);
   font-weight: 500;
   z-index: 2;
 }
