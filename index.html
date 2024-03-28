@@ -167,12 +167,23 @@
       <div class="basic-input">
         <label for="nameInput" class="form-label ps-2 mb-3">Nombre</label>
         <input type="text" class="form-control mb-3" id="nameInput">
-        <label for="subjectInput" class="form-label ps-2 mb-3">Asunto</label>
-        <input type="text" class="form-control mb-3" id="subjectInput">
+        <label for="subjectInput" class="form-label ps-2 mb-3">
+          Asunto
+        </label>
+        <input type="text" class="form-control mb-3" id="subjectInput"         data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        data-bs-title="Ingresa el motivo de tu contacto">
       </div>
       <div class="my-3">
         <label for="messsgeInput" class="form-label ps-2 mb-3">Mensaje</label>
-        <textarea class="form-control" id="messsgeInput" rows="8"></textarea>
+        <textarea 
+        class="form-control"
+        id="messsgeInput"
+        rows="8"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        data-bs-title="Ingresa lugares de interes, fechas, medio de contacto preferido, entre otros.">
+        </textarea>
       </div>
       <button class="btn btn-primary btn-form">Enviar</button>
     </div>

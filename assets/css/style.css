@@ -114,7 +114,7 @@ body {
 .form-container input,
 .form-container textarea{
   background-color: var(--white);
-  opacity: 0.98;
+  opacity: 1;
 }
 .title-form {
   font-family: 'Quicksand', sans-serif;
@@ -134,6 +134,23 @@ body {
   border: none;
   margin-top: 1rem;
   width: 8rem;
+}
+.form-container .form-control:focus{
+  box-shadow: 0 0 0 .25rem var(--lightblue)
+}
+.tooltip-inner {
+  /* cambios que afectan al contenedor del tooltip */
+  /* width: 30rem; */
+  font-family: 'Quicksand', sans-serif;
+  color: var(--white);
+  font-size: 1rem;
+  text-align: start;
+  background-color: var(--grey);
+}
+.tooltip.bs-tooltip-auto[data-popper-placement^='top'] .tooltip-arrow::before,
+.tooltip.bs-tooltip-top .tooltip-arrow::before {
+    /* cambios que afectan a la flecha del tooltip*/
+  border-top-color: var(--grey);
 }
 /* Footer */
 .footer {
