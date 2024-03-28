@@ -5,6 +5,7 @@
   --lightblue2: #36A9B4;
   --black: #212121;
   --grey: #323232;
+  --lightgrey: #515151;
 }
 body {
   background-color: var(--black);
@@ -151,6 +152,26 @@ body {
 .tooltip.bs-tooltip-top .tooltip-arrow::before {
     /* cambios que afectan a la flecha del tooltip*/
   border-top-color: var(--grey);
+}
+/* Send Modal */
+.modal-content {
+  font-family: 'Quicksand', sans-serif;
+  color: var(--white);
+  background-color: var(--grey);
+}
+.modal-header {
+  border-top: 8px var(--lightblue2) solid;
+  .btn-close {
+    filter: invert(1);
+  }
+}
+.modal-footer {
+  border: none;
+  border-bottom: 4px var(--white) solid;
+  .btn {
+    color: var(--white);
+    background-color: var(--lightgrey);
+  }
 }
 /* Footer */
 .footer {

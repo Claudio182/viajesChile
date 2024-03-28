@@ -185,11 +185,34 @@
         data-bs-title="Ingresa lugares de interes, fechas, medio de contacto preferido, entre otros.">
         </textarea>
       </div>
-      <button class="btn btn-primary btn-form">Enviar</button>
+      <button
+      class="btn btn-primary btn-form"
+      data-bs-toggle="modal"
+      data-bs-target="#sendModal">
+        Enviar
+      </button>
     </div>
   </div>
 
-<!-- Footer -->
+  <!-- Send Modal -->
+  <div class="modal fade" id="sendModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Datos enviados</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Nos contactaremos contigo a la brevedad.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn" data-bs-dismiss="modal">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
   <footer class="footer">
     <div class="footer-container container d-flex justify-content-around align-items-center py-3">
       <p class="footer-text align-middle m-0">VIAJES CHILE</p>
@@ -209,6 +232,7 @@
       </div>
     </div>
   </footer>
+
 
   <!-- Bootstrap JS 5.3 -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
